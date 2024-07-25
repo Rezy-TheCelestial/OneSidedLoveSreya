@@ -180,7 +180,7 @@ section#Hobbies {
     font-family: 'Lobster', cursive;
     font-size: 2.4em;
     color: #61b8a5;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin: 0;
     padding: 20px;
     border-bottom: 2px solid #ddd;
@@ -296,7 +296,7 @@ section#Hobbies {
     font-style : italic ;
     color: #498a69;
     border-left: 4px solid #36322f;
-          border-bottom: 1.75px solid #36322f;
+    border-bottom: 1.75px solid #36322f;
     border-radius: 15px;
     
     padding-left: 10px;
@@ -365,7 +365,7 @@ rotateY(0deg);
 
 
     
-}
+                }
 
 .feelings::before {
     content: open-quote;
@@ -391,13 +391,84 @@ rotateY(0deg);
 
 #Ending {
     font-size : 0.7em;
-    color : #6b6865; 
-    border : 2px solid #c8c995;
+     background: #ffdacc;
+    border : 2px solid #c26767;
     border-radius : 30px; 
-    content : justify;
+    color : #333333;
+}
+#LastQ{
+     
+     color : #003366;
+    position: 5px;
+    margin :10px;
+    
 }
 
+#purpose{
+    color : #663a3a;
+    font-size : 1.7em;
+    border : 2px solid #595050;
+    border-radius : 15px; 
+    position: 5px;
+    margin :10px;
+    animation : headings  5s infinite;
+    padding : 10px ; 
+    
+    font-style: underline; 
+}
+
+#bequeath{
+    color : #003366;
+    font-size : 0.7em;
+    border : 2px solid #595050;
+    border-radius : 15px; 
+    position: 5px;
+    margin :10px;
+
+    padding : 10px ; 
+    
+   /* font-style: italic;*/
+    background: #d3d4e6;
+}
+#Hope{
+    border-left: 1.5px solid #824141;
+    border-bottom: 1.2px solid #824141;
+    color : #2f4f3f
+}
+
+@keyframes last{
+    0% {
+        color : #3b3b98;
+    
+    }
+25% {
+    color : #5c5c8a;
+}
+    50% {
+        color : #ff6f61 ;
+    }
+    75% {
+        color : #283593; 
+    }
+100%{
+    color : #d81b60;
+}
+
+    
+}
+#lastH{
+    color : #2f4f3f;
+    font-size : 1.7em;
+    border : 2px solid #595050;
+    border-radius : 15px; 
+    position: 5px;
+    margin :10px;
+    animation : last 5s infinite;
+    padding : 10px ; 
+    font-style: none;
+    
+
+} 
 
 
-
-  
+    
